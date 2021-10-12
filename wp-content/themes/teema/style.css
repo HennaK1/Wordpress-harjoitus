@@ -1,0 +1,151 @@
+/*
+Theme Name: Oma teema
+Theme URI: http://metropolia.fi
+Author: HENNA
+Author URI: http://metropolia.fi
+Description: testaillaan teemaa
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: tag
+Text Domain: omateema
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana;
+}
+
+.main-container {
+    max-width: 62.5em;
+    margin: auto;
+}
+.tummansininen {
+    background-color: #0c88b4;
+}
+.main-header {
+    width: 100%;
+    float:  left;
+    height: 40px;
+}
+.banner {
+  margin-bottom: 1em;
+  float: left;
+  width: 100%;
+}
+.content-row {
+    float: left;
+    width: 100%;
+}
+footer {
+    float: left;
+    width: 100%;
+    color: #f2f4f5;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    margin-top: 1em;
+}
+.sinista {
+    background-color: #00a0d2;
+}
+.sininen{
+    background-color: #5f97a8;
+}
+.tunnus {
+    float: left;
+    width: 12.5em;
+    height: 40px;
+}
+.tunnus p {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 3px;
+    font-size: 1.5em;
+}
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    width: 15%;
+    float: left;
+}
+nav li {
+    display: inline-block;
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    line-height: 1em;
+    color:#000;
+    display: block;
+    padding: 0.5em 0 0.5em 0.5em;
+    border-top:#CCC solid 1px;
+}
+nav a:hover {
+    background-color: #5f97a8;
+}
+nav li:last-child a {
+    border-bottom: #CCC solid 1px;
+}
+p{
+    margin-left: 15%;
+}
+.nomarg{
+    margin-left: 1px;
+}
+.marg{
+    margin-left: 15%;
+}
+main {
+    width: 85%;
+    float: left;
+    padding: 0 1em;
+    box-sizing: border-box;
+}
+main > h2 {
+    margin-top: 0;
+}
+main > h3 {
+    font-weight: normal;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    color: #f2f4f5;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 0.3em;
+}
+article {
+    width: 25%;
+    float: left;
+}
+article a {
+    display: block;
+    max-width: 156px;
+    padding: 3px;
+    margin: auto;
+    text-decoration: none;
+    color: inherit;
+}
+article a:hover{
+    background-color: rgb(237,240,241);
+}
+article img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 1px 3px #888;
+    display: block;
+    margin: auto;
+}
+article h4{
+    font-weight: normal;
+    margin: 0.2em 0;
+    padding: 0 0.2em;
+}
